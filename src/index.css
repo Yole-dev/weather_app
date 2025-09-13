@@ -1,11 +1,77 @@
 @import "tailwindcss";
 
-@theme {
-  --color-primary: ;
-}
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "BricolageGrotesque-Bold";
+  font-display: swap;
+  src: url("./assets/fonts/Bricolage_Grotesque/static/BricolageGrotesque-Bold.ttf")
+    format("ttf");
+}
+
+@font-face {
+  font-family: "DMSans-SemiBoldItalic";
+  font-display: swap;
+  src: url("./assets/fonts/DM_Sans/static/DMSans-SemiBoldItalic.ttf")
+    format("ttf");
+}
+
+@font-face {
+  font-family: "DMSans-Light";
+  font-display: swap;
+  src: url("./assets/fonts/DM_Sans/static/DMSans-Light.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "DMSans-Bold";
+  font-display: swap;
+  src: url("./assets/fonts/DM_Sans/static/DMSans-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "DMSans-SemiBold";
+  font-display: swap;
+  src: url("./assets/fonts/DM_Sans/static/DMSans-SemiBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "DMSans-Medium";
+  font-display: swap;
+  src: url("./assets/fonts/DM_Sans/static/DMSans-Medium.ttf") format("ttf");
+}
+
+@theme {
+  /* custom colors */
+  --color-neutral-0: #ffffff;
+  --color-neutral-200: #d4d3d9;
+  --color-neutral-300: #acacb7;
+  --color-neutral-600: #3c3b5e;
+  --color-neutral-700: #302f4a;
+  --color-neutral-800: #262540;
+  --color-neutral-900: #02012c;
+  --color-orange: #ff820a;
+  --color-blue-500: #4658d9;
+  --color-blue-700: #2b1b9c;
+
+  /* custom radius */
+  --radius-4: 4px;
+  --radius-6: 6px;
+  --radius-8: 8px;
+  --radius-10: 10px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-20: 20px;
+  --radius-24: 24px;
+
+  /* Custom fonts */
+  --font-bricolage: "BricolageGrotesque-Bold", sans-serif;
+  --font-sans-semibold-italic: "DMSans-SemiBoldItalic", sans-serif;
+  --font-sans-light: "DMSans-Light", sans-serif;
+  --font-sans-bold: "DMSans-Bold", sans-serif;
+  --font-sans-semibold: "DMSans-SemiBold", sans-serif;
+  --font-sans-medium: "DMSans-Medium", sans-serif;
 }
